@@ -158,7 +158,7 @@ const StatisticsPanel = ({
         />
         <StatisticCard
           title="Carbon Sequestered"
-          value={`${personalStats.carbonSaved} kg`}
+          value={`${personalStats.carbonSaved} MTCO2e`}
           description="CO₂ emissions prevented"
           icon={<Recycle className="h-4 w-4" />}
           color="bg-emerald-500"
