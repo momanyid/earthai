@@ -462,9 +462,9 @@ const JobsPage: React.FC = () => {
                         </div>
 
                         <div className="flex justify-between items-center mt-2">
-                          <div className="text-sm font-medium">
+                          {/* <div className="text-sm font-medium">
                             {job.salary}
-                          </div>
+                          </div> */}
                           <div className="flex gap-2">
                             {job.applied ? (
                               <Button

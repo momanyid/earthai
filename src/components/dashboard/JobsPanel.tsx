@@ -158,7 +158,7 @@ const JobsPanel = ({
                 </div>
 
                 <div className="flex justify-between items-center mt-2">
-                  <div className="text-sm font-medium">{job.salary}</div>
+                  {/* <div className="text-sm font-medium">{job.salary}</div> */}
                   <div className="flex gap-2">
                     {job.applied ? (
                       <Button
