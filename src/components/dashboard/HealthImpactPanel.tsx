@@ -104,7 +104,7 @@ const HealthImpactPanel = ({
   ],
   communityImpact = "Your recycling efforts have contributed to a 23% reduction in waste-related illnesses in your community over the past year.",
 }: HealthImpactPanelProps) => {
-  const API_URL = process.env.REACT_APP_API_URL;
+  const API_URL = process.env.REACT_APP_API_URL || "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAUnznyJdjIevLpD_UPB7NURYXMnjDgd_M";
   
   // Separate state for each Gemini AI instance
   const [wasteInput, setWasteInput] = useState('');
